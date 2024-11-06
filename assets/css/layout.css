@@ -54,7 +54,7 @@ main, aside, footer {
 /* Seletores para formatação individual. */
 
 header {
-	background: url('/assets/mosaico2.jpg') no-repeat center center;
+	background: url('assets/mosaico2.jpg') no-repeat center center;
     background-size: cover;
     height: 100px; /* Altura do elemento. */
     display: flex;
