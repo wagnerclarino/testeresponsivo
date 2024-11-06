@@ -32,7 +32,7 @@ body {
 }
 
 /* Formatação comum entre os elementos. */
-header, nav, main, aside, footer {
+main, aside, footer {
 	/* Cor do fundo. */
 	background: #a1a1a1;
 
@@ -54,8 +54,12 @@ header, nav, main, aside, footer {
 /* Seletores para formatação individual. */
 
 header {
-	/* Altura do elemento. */
-	height: 100px;
+	background: url('E:/Wagner Clarino/assets/mosaico2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100px; /* Altura do elemento. */
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
 }
 
 header #logo {
@@ -71,7 +75,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: #ffffff;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -106,13 +110,13 @@ header #logo {
 
 nav {
 	/* Alinha os itens na vertical. */
-	justify-content: center;
-
-	/* Alinha os itens na horizontal. */
-	align-items: center;
-
-	/* Altura do elemento. */
-	height: 100px;
+	justify-content: center; /* Alinha os itens na horizontal. */
+	align-items: center; /* Altura do elemento. */
+	height: 50px;
+	background: #e8c263;
+	display: flex;
+	margin: 3px;
+	flex: 1 1 100vw;
 }
 
 nav a {
@@ -124,7 +128,8 @@ nav a {
 main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
-	height: calc(100vh - 436px);
+	/*height: calc(107vh - 436px);*/
+height: 1000px;
 }
 
 aside {
@@ -210,4 +215,8 @@ a {
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
 	}
+	/* Container principal com duas colunas */
+
+	
 }
+
